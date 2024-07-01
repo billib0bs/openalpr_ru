@@ -4,3 +4,7 @@
 
 
 Осталось разобраться с распознование из потока rtsp. Не могу понять почему не работает с камерой bosch dinion ner-l2
+
+
+Для дебага необходимо включить опцию debug_show_images = 1 в файле openalpr.conf
+Запускать alpr.exe -c ru --debug image.jpg
