@@ -1,11 +1,15 @@
 По мере разбора конфига буду добавлять информацию.
 ; One-line Russian style plates 
+
 : from EU config
 
 ; 35-50; 45-60, 55-70, 65-80, 75-90
 char_analysis_min_pct = 0.35
+
 char_analysis_height_range = 0.15
+
 char_analysis_height_step_size = 0.19
+
 char_analysis_height_num_steps = 5
 
 segmentation_min_speckle_height_percent = 0.2
