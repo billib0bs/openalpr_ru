@@ -13,41 +13,66 @@ char_analysis_height_step_size = 0.19
 char_analysis_height_num_steps = 5
 
 segmentation_min_speckle_height_percent = 0.2
+
 segmentation_min_box_width_px = 6
+
 segmentation_min_charheight_percent = 0.4;
+
 segmentation_max_segment_width_percent_vs_average = 2.0;
 
+
 plate_width_mm = 520
+
 plate_height_mm = 110
 
+
 multiline = 0
+
 debug_timing = 1
+
 debug_general = 1
 
 char_height_mm = 80
+
 char_width_mm = 53
+
 char_whitespace_top_mm = 10
+
 char_whitespace_bot_mm = 10
 
+
 template_max_width_px = 184
+
 template_max_height_px = 46
+
 ; Higher sensitivity means less lines
+
 plateline_sensitivity_vertical = 18
+
 plateline_sensitivity_horizontal = 55
 
+
 ; Regions smaller than this will be disqualified
+
 min_plate_size_width_px = 65
+
 min_plate_size_height_px = 18
 
+
 ; Results with fewer or more characters will be discarded
+
 postprocess_min_characters = 6
+
 postprocess_max_characters = 9
 
+
 detector_file = ru.xml
+
 ocr_language = lru
 
 ; Override for postprocess letters/numbers regex. 
 ; postprocess_regex_letters = [A-X]
+
 ; postprocess_regex_numbers = [0-9]
 
 
