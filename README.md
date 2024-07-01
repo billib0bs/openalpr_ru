@@ -7,4 +7,5 @@
 
 
 Для дебага необходимо включить опцию debug_show_images = 1 в файле openalpr.conf
+
 Запускать alpr.exe -c ru --debug image.jpg
